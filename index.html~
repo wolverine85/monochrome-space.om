@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/Index.css" />
+<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript"  src="scripts/javascript.js"></script>
+<style type="text/css">
+img.navImg{
+	position:absolute;
+	padding:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin: 0px;
+	top:30%;
+	border: 5px solid white;
+	z-index:9;
+	box-shadow:2px 2px 1px #666666;	
+	}
+img.navImg:hover
+{
+
+z-index:99;
+}
+p.category{
+display:none;
+color:white;
+position:absolute;
+z-index:100;
+text-shadow: 2px 2px black;
+background-color: green;
+padding-left:25px;
+padding-right: 25px;
+border-radius:30%;
+border-color: #FFFFFF;
+border: 2px groove;
+font-size:2em;
+}
+</style>
+</head>
+<body>
+	<section id="container"> 
+		<header id="logo" class="wraper"><p class="logoText">Something</p></header>
+		<section id="int_body" class="wraper">
+			<p class="normalText">Something</p>
+			<p class="category">Category</p>
+			<nav class="menu">
+				<a href="#"><img src="/Photography/images/cat/animals.jpg" id="one" alt="animals" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/landscape.jpg" id="two" alt="landscape" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/portrait.jpg" id="tree" alt="portrait" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/architecture.jpg" id="four" alt="architecture" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/animals.jpg" id="five" alt="animals" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/landscape.jpg" id="six" alt="landscape" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/portrait.jpg" id="seven" alt="portrait" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/architecture.jpg" id="eight" alt="architecture" width="230" height="185" class="navImg"></img></a>
+			<!--	<a href="#"><img src="/Photography/images/cat/animals.jpg" id="nine" alt="animals" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/landscape.jpg" id="ten" alt="landscape" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/portrait.jpg" id="eleven" alt="portrait" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/architecture.jpg" id="twelve" alt="architecture" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/animals.jpg" id="tirdtheen" alt="animals" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/landscape.jpg" id="fourtheen" alt="landscape" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/portrait.jpg" id="fivetheen" alt="portrait" width="230" height="185" class="navImg"></img></a>
+				<a href="#"><img src="/Photography/images/cat/architecture.jpg" id="sixtheen" alt="architecture" width="230" height="185" class="navImg"></img></a>
+			-->
+			</nav>
+			<p>Something nice will be cool</p>		
+		</section>
+		<footer id="footer" class="wraper"><p>footer text or some animation effect</p></footer>
+	</section>
+</body>
+</html>
